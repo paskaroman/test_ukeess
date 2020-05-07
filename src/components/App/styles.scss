@@ -1,0 +1,36 @@
+@import "../Login/styles.scss";
+@import "../Navigation/styles.scss";
+@import "../Loader/styles.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  label {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    input {
+      width: 60%;
+    }
+  }
+  button {
+    margin-top: 15px;
+  }
+  .error {
+    font-size: 12px;
+    color: red;
+  }
+}
